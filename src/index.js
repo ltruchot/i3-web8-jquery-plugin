@@ -1,7 +1,10 @@
 import $ from 'jquery';
 import 'selectize';
 
-$('#text-selectize').selectize({
+/*
+$.plot($('#placeholder'), [[[0, 0], [1, 1]]], { yaxis: { max: 1 } });
+ */
+$('#input-tags').selectize({
   delimiter: ',',
   persist: false,
   create(input) {
@@ -11,3 +14,13 @@ $('#text-selectize').selectize({
     };
   },
 });
+/*
+$('#chart').linechart({
+  data: [{ title: 'toto', value: 1 }],
+  width: 50,
+  height: 10,
+  boxSize: 16,
+  line: true,
+  theme: 'purple',
+});
+ */

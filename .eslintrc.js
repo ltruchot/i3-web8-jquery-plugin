@@ -14,6 +14,7 @@ module.exports = {
     sourceType: 'module',
   },
   rules: {
+    "import/first": 0,
     'no-restricted-syntax': 0,
     'no-console': 0,
     'no-plusplus': 0,

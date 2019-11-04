@@ -5,6 +5,7 @@
     <title>New project</title>
   </head>
   <body>
+    <div id="placeholder"></div>
     <input
       id="fileupload"
       type="file"
@@ -14,10 +15,12 @@
       data-sequential-uploads="true"
       data-form-data='{"script": "true"}'
     />
-    <select id="test-selectize">
-      <option value="toto">toto</option>
-      <option value="titi">titi</option>
-      <option value="tata">tata</option>
-    </select>
+    <input type="text" id="input-tags" value="awesome,neat" />
+    <div id="chart"></div>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.js"
+      integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
